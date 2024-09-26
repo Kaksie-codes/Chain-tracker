@@ -1,0 +1,25 @@
+.connect-walletet-container
+{
+  
+  width: 100vw;
+  height: 90vh;
+}
+.connect-wallet-btn
+{
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 300px;
+  height: 60px;
+}
+
+@media screen and (max-width: 650px) 
+{
+  .connect-wallet-btn
+  {
+    
+    width:80vw;
+    height: 60px;
+  }
+}

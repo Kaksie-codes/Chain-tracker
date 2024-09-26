@@ -1,13 +1,15 @@
-import { Link, Outlet } from 'react-router-dom'
+import React from 'react'
+import { Outlet, Link } from 'react-router-dom'
+import './rootLayout.css'
 
 const RootLayout = () => {
   return (
-    <div>
-        <Link to={'/'}>
-          <h1>RootLayout</h1>
-        </Link>        
-        <Outlet/>
-    </div>
+    <div className='Root-Layout'>
+      <Link to='/edwawryhtryj'>
+        <h3>Melstein</h3>
+      </Link>      
+      <Outlet/>
+      </div>
   )
 }
 
