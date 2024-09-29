@@ -19,7 +19,7 @@ const ConnectWallet = () => {
 
           handleConnectWallet()
         }}>Connect Wallet</button>
-      
+      <p className='text-white'>Testing</p>
     </div>
   )
 }
