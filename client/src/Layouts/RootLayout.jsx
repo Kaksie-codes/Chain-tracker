@@ -3,7 +3,7 @@ import './rootLayout.css'
 
 const RootLayout = () => {
   return (
-    <div className='Root-Layout'>
+    <div className='w-screen bg-gradient min-h-screen'>
       <Link to='/edwawryhtryj'>
         <h3>Melstein</h3>
       </Link>      
