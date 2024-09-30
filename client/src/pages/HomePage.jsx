@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from "react-router-dom";
 
 
@@ -15,7 +14,7 @@ const HomePage = () => {
           <button className='w-[300px] bg-primary text-white border-none rounded-lg h-[60px]' onClick={navigateToSignInPage}>
             Signin
           </button>
-          <p className='text-white mt-1'>Don't have an account? No wahala! <span className='text-secondary hover:underline hover:cursor-pointer'>SignUp</span></p>
+          <p className='text-white mt-1'>Don&apos;t have an account? No wahala! <span className='text-secondary hover:underline hover:cursor-pointer'>SignUp</span></p>
       </div>
     </div>
   );
